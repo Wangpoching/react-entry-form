@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import useFormApi from '../../API/useFormApi'
+import useForm from '../../hooks/useForm'
 
 const FormContainer = styled.div`
   padding: 0 0 40px 0;
@@ -104,8 +104,7 @@ const Alert = styled.p`
 `
 
 export default function Form() {
-
-  const [ formContent, handleInputChange, handleSubmit ] = useFormApi()
+  const [ formContent, handleInputChange, handleSubmit ] = useForm()
   const { username, email, phoneNumber, type, howToKnow, other } = formContent
   return (
     <FormContainer className={'form__wrapper'}>

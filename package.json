@@ -2,7 +2,10 @@
   "name": "entry-form",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://wangpoching.github.io/react-entry-form",
+=======
+>>>>>>> 3052a29ab61b450a6945be2a90ca63f0fe6e21f6
   "dependencies": {
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.7.1",
@@ -10,15 +13,21 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "gh-pages": "^3.2.3",
+=======
+>>>>>>> 3052a29ab61b450a6945be2a90ca63f0fe6e21f6
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+>>>>>>> 3052a29ab61b450a6945be2a90ca63f0fe6e21f6
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

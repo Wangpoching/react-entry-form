@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function useFormApi() {
+export default function useForm() {
 
   const [formContent, setFormContent] = useState({
     username: '',
@@ -59,8 +59,6 @@ export default function useFormApi() {
       alert(result.errorMessage.join('\r\n'))
       return
     }
-    alert(formContent.username)
-    alert(formContent.type)
     alert('我們已收到您的報名資訊')
   }
 
